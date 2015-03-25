@@ -1,0 +1,2 @@
+LibSVM implementation using GPU capabilities over OpenCL. OpenCL is encapsulated in the native implementation of LibSVM, so any previous program using LibSVM will be compatible with OpenCL-LibSVM.
+For each original SVM problem implemented in LibSVM, a version supporting OpenCL is provided. If one wants to use GPU for LibSVM computations one only must set the options when calling LibSVM properly.
